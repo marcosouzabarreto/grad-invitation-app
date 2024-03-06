@@ -55,7 +55,7 @@ export default function Timer() {
     return () => clearTimeout(timer);
   });
   return (
-    <Box display={"flex"} alignItems={"center"} justifyContent={"center"} className={"lg:gap-12 md:gap-9 gap-3 lg:mt-36 md:mt-28 mt-16 md:flex-row flex-col"}>
+    <Box display={"flex"} alignItems={"center"} justifyContent={"center"} className={"lg:gap-12 md:gap-9 gap-3 lg:mt-36 md:mt-28 mt-16 sm:flex-row flex-col"}>
       <TimeDisplay time={formatNum(days)} unit="DIAS" />
       <TimeDisplay time={formatNum(hours)} unit="HORAS" />
       <TimeDisplay time={formatNum(minutes)} unit="MINUTOS" />
