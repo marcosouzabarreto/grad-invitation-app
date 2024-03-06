@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+/** @type {import('tailwindcss').Config} */
 const config: Config = {
   important: true,
   content: [
