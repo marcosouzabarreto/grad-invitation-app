@@ -3,6 +3,15 @@ import type { Config } from "tailwindcss";
 /** @type {import('tailwindcss').Config} */
 const config: Config = {
   important: true,
+  mode: 'jit',
+
+  purge: [
+
+    './public/**/*.html',
+
+    './src/**/*.{js,jsx,ts,tsx,vue}',
+
+  ],
   content: [
     "./Components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
