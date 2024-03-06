@@ -1,6 +1,3 @@
-import { sql } from "@vercel/postgres";
-
-
 export type FormData = {
   name: string,
   willAttend: string,
@@ -30,5 +27,14 @@ export function validateFormData(formData: FormData) {
 }
 
 export async function submit(formData: FormData) {
-  await sql`INSERT INTO guests (name, will_attend) values (${formData.name}, ${formData.willAttend})` ;
+  const host = process.env.NEXT_PUBLIC_BACKEND_URL as string;
+  const endpoint = "/confirm-attendance"
+  await fetch(`${host}${endpoint}?name=${formData.name}&willAttend=${formData.willAttend}`, {
+    method: 'GET',
+    mode: 'cors',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  });
+
 }
