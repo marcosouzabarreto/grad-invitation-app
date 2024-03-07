@@ -16,10 +16,10 @@ export default function Content() {
     <>
       <Box display={"flex"} justifyContent={"center"}>
         <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} alignItems={"center"} >
-          <Typography textAlign="center" className="lg:pt-28 md:pt-24 pt-16 text-3xl sm:w-2/3 lg:w-1/2 w-5/6">
+          <Typography textAlign="center" className="lg:pt-28 md:pt-24 pt-16 text-4xl sm:w-2/3 lg:w-1/2 w-5/6">
             Bem vindo(a) ao meu site de formatura!
           </Typography>
-          <Typography className="pt-14 sm:w-2/3 lg:w-1/2 w-5/6" textAlign="justify">
+          <Typography className="text-lg pt-14 sm:w-2/3 lg:w-1/2 w-5/6" textAlign="justify">
             Chegou o momento tão esperado que simboliza não apenas o fim de um ciclo, mas também o início de um novo capítulo repleto de esperanças e objetivos ainda mais elevados.
             Foram momentos incontáveis de aprendizado intenso, noites em claro dedicadas ao estudo e ao aprimoramento pessoal, todos marcados por uma jornada de perseverança e superação.
             Sinto-me inundado por uma profunda gratidão a Deus, aos meus familiares, amigos e a cada mentor que cruzou o meu caminho, desempenhando papéis cruciais na minha formação e no meu desenvolvimento. Agora, ao virar desta página tão significativa, é com grande entusiasmo que convido você para celebrar comigo esta conquista.

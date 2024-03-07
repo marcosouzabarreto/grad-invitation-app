@@ -19,13 +19,13 @@ export default function PlaceInfo() {
             className="mt-10 lg:h-96 md:h-80 h-64"
           />
           <Box className="gap-2 flex flex-col mt-16 text-center text-primary items-center justify-center">
-            <Typography className="font-medium text-xl">
+            <Typography className="font-medium text-2xl">
               Local: Happy Day
             </Typography>
-            <Typography className="font-medium text-xl">
+            <Typography className="font-medium text-2xl">
               Data: 23/03/2024
             </Typography>
-            <Typography className="font-medium text-xl">
+            <Typography className="font-medium text-2xl">
               Horario: 19:30
             </Typography>
 
