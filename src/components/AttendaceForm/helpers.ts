@@ -6,7 +6,7 @@ export type FormData = {
 function findErrorByKey(key: keyof FormData) {
   const errorsMap = {
     name: "Nome Invalido",
-    willAttend: "Confirmacao Invalida"
+    willAttend: "Confirmação Invalida"
   }
   return errorsMap[key];
 
